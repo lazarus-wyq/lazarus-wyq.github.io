@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吴逸谦 | Wu Yiqian - Personal Portfolio</title>
+    <meta name="description" content="大连理工大学机械设计制造及其自动化专业，保研申请中。多次获国家级竞赛奖项。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">WYQ</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">关于</a>
+                <a href="#education" class="nav-link">教育</a>
+                <a href="#competitions" class="nav-link">竞赛</a>
+                <a href="#projects" class="nav-link">项目</a>
+                <a href="#skills" class="nav-link">技能</a>
+                <a href="#contact" class="nav-link">联系</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-bg-glow"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                保研申请中 · Graduate School Application
+            </div>
+            <h1 class="hero-name">
+                <span class="hero-name-cn">吴逸谦</span>
+                <span class="hero-name-en">Wu Yiqian</span>
+            </h1>
+            <p class="hero-title">机械设计制造及其自动化 · Mechanical Engineering</p>
+            <p class="hero-subtitle">
+                大连理工大学 · Dalian University of Technology
+            </p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-number">89.28</span>
+                    <span class="stat-label">加权平均分 GPA</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">6/60</span>
+                    <span class="stat-label">专业排名 Ranking</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">国家级奖项 National Awards</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="stat-number">7.0</span>
+                    <span class="stat-label">雅思 IELTS</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">联系我 Contact Me</a>
+                <a href="#projects" class="btn btn-ghost">查看项目 View Projects</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">01 / About</span>
+                <h2 class="section-title">关于我</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        我是大连理工大学机械设计制造及其自动化专业的本科生，将于 2027 年 7 月毕业。
+                        我对<span class="highlight">机械工程与智能制造</span>充满热情，尤其在
+                        <span class="highlight">计算机视觉、嵌入式系统与控制算法</span>的交叉领域有着丰富的实践经验。
+                    </p>
+                    <p>
+                        在本科阶段，我参与了多项国家级竞赛并屡获佳绩，同时在课程项目中独立完成了
+                        从算法设计到硬件调试的完整开发流程。我具备扎实的编程基础（C / Python / MATLAB）
+                        和丰富的硬件平台经验（STM32、树莓派、Arduino），能够快速将理论转化为工程实践。
+                    </p>
+                    <p>
+                        雅思 7.0（阅读 8.0），具备全英文授课环境学习经历，能够流畅进行学术交流。
+                        目前正在积极准备保研申请，目标方向为机械工程——机械设计制造及其自动化。
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <div class="about-avatar">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="48" stroke="url(#avatarGrad)" stroke-width="2"/>
+                                <text x="50" y="62" text-anchor="middle" font-size="36" font-weight="700" fill="url(#avatarGrad)" font-family="Inter, sans-serif">吴</text>
+                                <defs>
+                                    <linearGradient id="avatarGrad" x1="0" y1="0" x2="100" y2="100">
+                                        <stop offset="0%" stop-color="#60a5fa"/>
+                                        <stop offset="100%" stop-color="#22d3ee"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3>吴逸谦</h3>
+                            <p>机械工程本科生</p>
+                        </div>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-row">
+                            <span class="info-label">学校</span>
+                            <span class="info-value">大连理工大学</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">专业</span>
+                            <span class="info-value">机械设计制造及其自动化</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">时间</span>
+                            <span class="info-value">2023.9 – 2027.7</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">方向</span>
+                            <span class="info-value">机械设计制造及其自动化</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">02 / Education</span>
+                <h2 class="section-title">教育经历</h2>
+            </div>
+            <div class="edu-timeline">
+                <div class="edu-item">
+                    <div class="edu-marker">
+                        <div class="edu-dot"></div>
+                        <div class="edu-line"></div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-card-top">
+                            <div class="edu-school">
+                                <div class="edu-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>大连理工大学</h3>
+                                    <p>Dalian University of Technology</p>
+                                </div>
+                            </div>
+                            <span class="edu-date">2023.9 – 2027.7</span>
+                        </div>
+                        <div class="edu-major">机械设计制造及其自动化</div>
+                        <div class="edu-stats">
+                            <div class="edu-stat-item">
+                                <span class="edu-stat-num">89.28</span>
+                                <span class="edu-stat-desc">前五学期加权平均分</span>
+                            </div>
+                            <div class="edu-stat-divider"></div>
+                            <div class="edu-stat-item">
+                                <span class="edu-stat-num">91.1</span>
+                                <span class="edu-stat-desc">大类与专业类课程</span>
+                            </div>
+                            <div class="edu-stat-divider"></div>
+                            <div class="edu-stat-item">
+                                <span class="edu-stat-num">6<span class="edu-stat-sub">/60</span></span>
+                                <span class="edu-stat-desc">专业排名</span>
+                            </div>
+                        </div>
+                        <div class="edu-honor">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="8" r="6"/>
+                                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+                            </svg>
+                            <span>学习优秀奖学金（二等）· 2023-2024、2024-2025 学年</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitions Section -->
+    <section class="section" id="competitions">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">03 / Competitions</span>
+                <h2 class="section-title">竞赛经历</h2>
+            </div>
+            <div class="comp-grid">
+                <!-- Competition 1 -->
+                <div class="comp-card" data-reveal>
+                    <div class="comp-card-top">
+                        <span class="comp-badge comp-badge-national">国家级二等奖</span>
+                        <span class="comp-date">2024.9</span>
+                    </div>
+                    <h3 class="comp-title">高教社杯全国大学生数学建模竞赛</h3>
+                    <p class="comp-role">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        编程手
+                    </p>
+                    <p class="comp-desc">
+                        负责规划问题的数学建模与算法设计，使用 MATLAB 完成核心算法及数据可视化。
+                    </p>
+                    <div class="comp-tags">
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">数学建模</span>
+                        <span class="tag">算法设计</span>
+                    </div>
+                </div>
+
+                <!-- Competition 2 -->
+                <div class="comp-card" data-reveal>
+                    <div class="comp-card-top">
+                        <span class="comp-badge comp-badge-national">国家级二等奖</span>
+                        <span class="comp-date">2025.8</span>
+                    </div>
+                    <h3 class="comp-title">中国大学生工程实践与创新能力大赛</h3>
+                    <p class="comp-role">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        第二成员 · 垃圾分类赛道
+                    </p>
+                    <p class="comp-desc">
+                        负责基于树莓派的计算机视觉模块：图像标注、YOLOv5 模型训练及部署；参与主控逻辑设计（Python）。
+                    </p>
+                    <div class="comp-tags">
+                        <span class="tag">YOLOv5</span>
+                        <span class="tag">树莓派</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Competition 3 -->
+                <div class="comp-card" data-reveal>
+                    <div class="comp-card-top">
+                        <span class="comp-badge comp-badge-national">国家级二等奖</span>
+                        <span class="comp-date">2025.8</span>
+                    </div>
+                    <h3 class="comp-title">全国大学生嵌入式芯片与系统设计竞赛</h3>
+                    <p class="comp-role">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        第二成员
+                    </p>
+                    <p class="comp-desc">
+                        负责计算机视觉优化（OpenMV / OpenCV），参与 CH32V307 无刷电机 PID 控制算法设计。
+                    </p>
+                    <div class="comp-tags">
+                        <span class="tag">OpenMV</span>
+                        <span class="tag">CH32V307</span>
+                        <span class="tag">PID控制</span>
+                        <span class="tag">无刷电机</span>
+                    </div>
+                </div>
+
+                <!-- Competition 4 -->
+                <div class="comp-card" data-reveal>
+                    <div class="comp-card-top">
+                        <span class="comp-badge comp-badge-provincial">省级二等奖</span>
+                        <span class="comp-date">2025.8</span>
+                    </div>
+                    <h3 class="comp-title">TI 杯全国大学生电子设计竞赛</h3>
+                    <p class="comp-role">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        第二成员
+                    </p>
+                    <p class="comp-desc">
+                        负责计算机视觉模型调用与主控逻辑编写（Python），实现实时颜色 / 形状识别。
+                    </p>
+                    <div class="comp-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">计算机视觉</span>
+                        <span class="tag">颜色识别</span>
+                        <span class="tag">形状识别</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">04 / Projects</span>
+                <h2 class="section-title">项目经历</h2>
+            </div>
+            <div class="project-list">
+                <!-- Project 1 -->
+                <div class="project-card" data-reveal>
+                    <div class="project-number">01</div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">智能循迹小车</h3>
+                                <span class="project-subtitle">《机械系统实验》课程项目 · 核心成员</span>
+                            </div>
+                            <span class="project-date">2026.3 – 2026.5</span>
+                        </div>
+                        <p class="project-desc">
+                            基于 CH32V307 主控芯片编写控制算法，创新性引入角度传感器作为动力调节依据。
+                            负责软硬件协同调试与整车测试，最终三次循迹测试全部成功。
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">CH32V307</span>
+                            <span class="tag tag-blue">角度传感器</span>
+                            <span class="tag tag-blue">控制算法</span>
+                            <span class="tag tag-blue">软硬件协同</span>
+                        </div>
+                        <div class="project-highlight">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            三次循迹测试全部成功
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-reveal>
+                    <div class="project-number">02</div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <div>
+                                <h3 class="project-title">四旋翼无人机</h3>
+                                <span class="project-subtitle">《工程导论》课程项目 · 核心成员</span>
+                            </div>
+                            <span class="project-date">2024.3 – 2024.7</span>
+                        </div>
+                        <p class="project-desc">
+                            基于 Arduino 主控芯片配合外设开发视觉识别和载荷投放系统，
+                            实现无人机的自主目标识别与精准投放功能。
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag tag-blue">Arduino</span>
+                            <span class="tag tag-blue">视觉识别</span>
+                            <span class="tag tag-blue">载荷投放</span>
+                            <span class="tag tag-blue">无人机</span>
+                        </div>
+                        <div class="project-highlight">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                            完成视觉识别与载荷投放系统集成
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">05 / Skills</span>
+                <h2 class="section-title">技能与语言</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-card" data-reveal>
+                    <div class="skill-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3>编程与框架</h3>
+                    <p class="skill-subtitle">Programming & Frameworks</p>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>C</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>Python</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>MATLAB</span>
+                                <span class="skill-level">熟练</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>Pandas</span>
+                                <span class="skill-level">了解</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="50%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>YOLO</span>
+                                <span class="skill-level">了解</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="55%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-item-header">
+                                <span>OpenCV</span>
+                                <span class="skill-level">了解</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-bar-fill" data-width="55%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hardware -->
+                <div class="skill-card" data-reveal>
+                    <div class="skill-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="4" y="4" width="16" height="16" rx="2"/>
+                            <rect x="9" y="9" width="6" height="6"/>
+                            <line x1="9" y1="2" x2="9" y2="4"/>
+                            <line x1="15" y1="2" x2="15" y2="4"/>
+                            <line x1="9" y1="20" x2="9" y2="22"/>
+                            <line x1="15" y1="20" x2="15" y2="22"/>
+                            <line x1="20" y1="9" x2="22" y2="9"/>
+                            <line x1="20" y1="14" x2="22" y2="14"/>
+                            <line x1="2" y1="9" x2="4" y2="9"/>
+                            <line x1="2" y1="14" x2="4" y2="14"/>
+                        </svg>
+                    </div>
+                    <h3>硬件与工具</h3>
+                    <p class="skill-subtitle">Hardware & Tools</p>
+                    <div class="skill-chips">
+                        <div class="skill-chip"><span>树莓派</span> Raspberry Pi</div>
+                        <div class="skill-chip"><span>CH32V307</span> 嵌入式主控</div>
+                        <div class="skill-chip"><span>STM32</span> 微控制器</div>
+                        <div class="skill-chip"><span>Arduino</span> 开发板</div>
+                        <div class="skill-chip"><span>SolidWorks</span> CAD建模</div>
+                        <div class="skill-chip"><span>LaTeX</span> 排版系统</div>
+                        <div class="skill-chip"><span>Git</span> 版本控制</div>
+                        <div class="skill-chip"><span>OpenMV</span> 机器视觉</div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="skill-card" data-reveal>
+                    <div class="skill-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3>语言能力</h3>
+                    <p class="skill-subtitle">Language Proficiency</p>
+                    <div class="lang-items">
+                        <div class="lang-item">
+                            <div class="lang-item-top">
+                                <div class="lang-name">
+                                    <span class="lang-flag">🇬🇧</span>
+                                    <div>
+                                        <strong>雅思 IELTS</strong>
+                                        <small>International English Language Testing System</small>
+                                    </div>
+                                </div>
+                                <span class="lang-score lang-score-high">7.0</span>
+                            </div>
+                            <div class="lang-detail">
+                                <span>阅读 Reading: <strong>8.0</strong></span>
+                                <span>全英文授课环境学习经历</span>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <div class="lang-item-top">
+                                <div class="lang-name">
+                                    <span class="lang-flag">🇨🇳</span>
+                                    <div>
+                                        <strong>CET-6</strong>
+                                        <small>大学英语六级</small>
+                                    </div>
+                                </div>
+                                <span class="lang-score">536</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">06 / Contact</span>
+                <h2 class="section-title">联系我</h2>
+            </div>
+            <div class="contact-wrap">
+                <div class="contact-intro">
+                    <p>感谢您浏览我的个人主页！</p>
+                    <p>如果您对我的背景感兴趣，欢迎通过以下方式与我联系。</p>
+                </div>
+                <div class="contact-cards">
+                    <a href="mailto:05530131@mail.dlut.edu.cn" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-label">邮箱 Email</span>
+                            <span class="contact-value">05530131@mail.dlut.edu.cn</span>
+                        </div>
+                    </a>
+                    <a href="tel:13705530131" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-label">电话 Phone</span>
+                            <span class="contact-value">13705530131</span>
+                        </div>
+                    </a>
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                        </div>
+                        <div class="contact-card-info">
+                            <span class="contact-label">学校 University</span>
+                            <span class="contact-value">大连理工大学 DLUT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 吴逸谦 Wu Yiqian · 大连理工大学 Dalian University of Technology</p>
+            <p class="footer-sub">Built with passion for mechanical engineering & intelligent manufacturing.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
