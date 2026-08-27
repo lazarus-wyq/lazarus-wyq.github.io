@@ -1199,6 +1199,12 @@ body {
     border-top: 1px solid var(--border);
 }
 
+.lang-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 16px;
+}
+
 .lang-detail strong {
     color: var(--accent-cyan);
 }
