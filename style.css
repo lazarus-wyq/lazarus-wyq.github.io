@@ -873,6 +873,153 @@ body {
     flex-shrink: 0;
 }
 
+.project-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-highlight-gold {
+    color: #fbbf24;
+}
+
+.project-highlight-gold svg {
+    color: #fbbf24;
+}
+
+.title-badge {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    margin-left: 8px;
+    border-radius: 6px;
+    background: rgba(251, 191, 36, 0.12);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.25);
+    letter-spacing: 1px;
+    position: relative;
+    top: -2px;
+}
+
+/* === Honors === */
+.honor-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+}
+
+.honor-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.honor-card.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.honor-card:hover {
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-4px);
+}
+
+.honor-card-featured {
+    border-color: rgba(251, 191, 36, 0.25);
+    background: linear-gradient(145deg, rgba(251, 191, 36, 0.05), var(--bg-card) 45%);
+}
+
+.honor-card-featured:hover {
+    border-color: rgba(251, 191, 36, 0.45);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4), 0 0 24px rgba(251, 191, 36, 0.08);
+}
+
+.honor-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.honor-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-md);
+    background: rgba(96, 165, 250, 0.1);
+    color: var(--accent-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.honor-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+.honor-icon-gold {
+    background: rgba(251, 191, 36, 0.12);
+    color: #fbbf24;
+}
+
+.honor-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 100px;
+    background: rgba(251, 191, 36, 0.12);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+.honor-badge-blue {
+    background: rgba(96, 165, 250, 0.1);
+    color: var(--accent-blue);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.honor-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin-bottom: 4px;
+}
+
+.honor-sub {
+    font-size: 0.78rem;
+    color: var(--text-tertiary);
+    margin-bottom: 18px;
+}
+
+.honor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    margin-bottom: 16px;
+}
+
+.honor-note {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px dashed var(--border);
+}
+
 /* === Skills === */
 .skills-grid {
     display: grid;
@@ -1177,6 +1324,10 @@ body {
 
     .contact-cards {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .honor-grid {
+        grid-template-columns: 1fr;
     }
 }
 
